@@ -1,0 +1,22 @@
+# 系统文件
+.DS_Store
+
+# 敏感信息
+.env
+*.key
+
+# 日志与缓存
+logs/
+__pycache__/
+node_modules/
+
+# ===== 个人财务数据（不推送；使用方从对应 *.TEMPLATE.md 复制初始化） =====
+portfolio/accounts.md
+portfolio/dca-plans.md
+portfolio/holdings/*
+!portfolio/holdings/TEMPLATE.md
+plans/strategy.md
+journal/decisions.md
+analysis/watchlist.md
+analysis/reports/*
+!analysis/reports/TEMPLATE.md
